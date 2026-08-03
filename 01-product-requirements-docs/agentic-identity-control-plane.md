@@ -11,7 +11,7 @@
 
 ## TL;DR
 - **Problem:** AI agents lack standardized, secure identity boundaries when executing tasks across third-party (3P) ecosystems, exposing enterprises to privilege escalation and data leakage.
-- **Proposed solution:** A protocol-led task-level identity control plane (co-authoring the Universal Commerce Protocol) utilizing OAuth 2.1 to enforce granular permissions.
+- **Proposed solution:** A protocol-led task-level identity control plane (co-authoring the Agent Commerce Protocol) utilizing OAuth 2.1 to enforce granular permissions.
 - **Top success metric:** 100% auditable cross-platform agent task execution with zero unauthorized privilege escalations during beta rollout.
 
 ---
@@ -28,7 +28,7 @@ As autonomous AI agents evolve from chat assistants to execution engines, they r
 ---
 
 ## 3. User Journeys
-### Today (Before UCP & Granular Permissions)
+### Today 
 1. User grants a static OAuth token to an AI assistant.
 2. Agent executes a multi-step workflow, retaining access long after the task completes.
 3. *Friction:* Security teams revoke broad access entirely due to lack of visibility, stalling agentic adoption.
@@ -45,13 +45,13 @@ As autonomous AI agents evolve from chat assistants to execution engines, they r
 |--------|-------------|------|------|---------|
 | A | User-level token sharing | Simple to implement | High security risk, broad blast radius | No |
 | B | Hardcoded API integrations per app | Custom security per tool | Unscalable maintenance burden | No |
-| C | Protocol-led Identity Control Plane (UCP) | Scalable, standardizes OAuth 2.1 across 1P/3P | Requires cross-industry protocol adoption | **Yes** |
+| C | Protocol-led Identity Control Plane  | Scalable, standardizes OAuth 2.1 across 1P/3P | Requires cross-industry protocol adoption | **Yes** |
 
 ---
 
 ## 5. Features & Prioritization (Impact vs. Effort 2x2)
 * **MVP:** * Task-level credential minting and scoping.
-  * OAuth 2.1 integration layer for Connected Apps.
+  * OAuth 2.1 integration layer for Apps.
 * **Fast-Follow:** * Real-time policy-as-code validation hooks for enterprise administrators.
 * **Out of Scope:** Custom identity provider hosting (relying on existing federation standards).
 
