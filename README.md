@@ -3,7 +3,7 @@
 *Strategic Product Leader | 0-to-1 Builder | Agentic Security, Identity & Infrastructure*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/arencechouhan)
-[![CMU MS-PM](https://img.shields.io/badge/CMU-MSPM-red?style=flat-square)](https://www.cmu.edu)
+[![CMU](https://img.shields.io/badge/CMU-MSPM-red?style=flat-square)](https://www.cmu.edu)
 
 ---
 
