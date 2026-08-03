@@ -17,17 +17,15 @@ Whether co-authoring the **Universal Commerce Protocol (UCP)** at Google or lead
 
 ## 📂 Repository Structure
 
-Explore the directories below for deep dives into my product specs, architecture threat models, and code prototypes:
+This repository is structured around rigorous, spec-driven product principles:
 
 ```text
 ai-pm-portfolio/
-├── README.md                          # You are here
-├── 01-product-requirements-docs/      # Rigorous PRDs & System Specs
+├── README.md                          # Executive Landing Page
+├── 01-product-requirements-docs/      # Why-First PRDs & System Specs
 │   ├── agentic-identity-control-plane.md
 │   └── secure-multimodal-rag-control-plane.md
-├── 02-architecture-and-threat-models/ # Trust boundaries, failure modes, & system flows
-│   ├── ucp-interoperability-flow.png
+├── 02-architecture-and-threat-models/ # Trust Boundaries, Failure Modes & Threat Matrices
 │   └── agent-sandbox-threat-matrix.md
-└── 03-prototypes-and-evals/           # Lightweight Python evaluation loops & PoCs
-    ├── rag_evaluation_pipeline.py
-    └── policy_as_code_validator.py
+└── 03-prototypes-and-evals/           # Lightweight Python Evaluation Loops & PoCs
+    └── rag_evaluation_pipeline.py
